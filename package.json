@@ -1,0 +1,23 @@
+{
+  "name": "zboard",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.js",
+    "dev": "bun --watch src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@grammyjs/files": "^1.1.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "grammy": "^1.36.1",
+    "uuid": "^11.1.0"
+  }
+}
